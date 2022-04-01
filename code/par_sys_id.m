@@ -1,9 +1,12 @@
 % Parametric system identification
 % (modified from M. Khoo)
-
-% % % % % % % % % % % % % % % % % % % % % % % % 
-% F. Caselli, MSSF A.A. 2020/2021
-% % % % % % % % % % % % % % % % % % % % % % % % 
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+% Mastrofini Alessandro 
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
+% Medical Engineering - University of Rome Tor Vergata
+% Physiological Systems Modeling and Simulation 
+% F. Caselli, MSSF A.Y. 2021/2022
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % 
 
 clear 
 close all
@@ -22,7 +25,9 @@ T=0.005; % 0.001
 t=(0:T:T_final)';
 
 % input: step
- u=ones(size(t)); 
+u=ones(size(t)); 
+% other input signal for identification
+
 %u=1/3*idinput(size(t),'rgs');
 % u=idinput(size(t),'rbs');
 % u=idinput(size(t),'prbs');
