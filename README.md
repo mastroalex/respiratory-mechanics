@@ -8,7 +8,7 @@
 
 - [ ] SET BACKGROUND 
 
-- [ ] set minimization model !
+- [ ] 
 
 - [ ] FIRST RUN with 3 parameters
 
