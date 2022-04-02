@@ -1,18 +1,60 @@
 \section{Introduzione}
 \lipsum[1-2]
-\subsection{Background}
-
-
-
-\subsubsection{Subsubsection}
-\lipsum[1-2]
 \section{Background}
+
+L'identificazione di sistemi è un insieme di tecniche che si prefigge lo scopo di identificare i parametri e il sistema tale da descrivere un certo fenomeno. La prima grande distinzione vede la separazione di due tecniche: identificazione parametrica e non parametrica. La prima parte stimando un modello del fenomeno e punta ad identificare i parametri che lo rappresentano. L'identificazione non parametrica, invece, procede senza conoscere il modello del fenomeno, al più ne stima alcune caratteristiche, e punta ad identificare il sistema che meglio lo descrive.
+
+In questo caso si parte da un modello ben noto, un modello di meccanica polmonare lineare descritto da un circuito RLC, e se ne identificano i parametri descrittivi.
+
+\subsection{Sistema RLC}
+
+Il circuito RLC (METTI RIFERIMENTO FIGURA) permette, seguendo l'analogia elettrica, di descrivere un modello approssimato della meccanica respiratoria. Il modello prevedere una serie di resistenza, induttore e capacità. Sulla base dell'analogia tra la corrente elettrica e il flusso polmonare è possibile rappresentare, in un modello a parametri concentrati, le componenti di compliance e resistenza elastica dei polmoni \cite{ghafarian_review_nodate}. 
+
+Questo modello permette di affrontare i casi fisiologici in cui il flusso entrante nei polmoni è predominante rispetto al flusso bloccato (flusso che invece aumenta notevolmente in caso di patologie ostruttive). L'analogia vede l'associazione della differenza di pressione alla differenza di potenziale, la corrente al flusso d'aria e l'induttanza come un'inertanza, ovvero la differenza di pressione richiesta per causare una variazione unitaria nel tasso di variazione del flusso nel tempo. 
+
+In un caso paziente specifico sarebbero necessarie misure sperimentali così da ottenere il modello reale sul quale effettuare l'identificazione. In questo caso, non avendo a disposizione dati sperimentali, si utilizzano dei dati noti in letteratura \cite{khoo_physiological_2018}. 
+
+\begin{itemize}
+	\item $\operatorname{R}=0.1  \:\left[\text{cmH2O s}\over \text{L} \right]$
+	\item $\operatorname{L}=0.01 \:\left[\text{cmH2O s}^2\over \text{L} \right]$
+	
+	 % inertance in units of cm H2O s^2/L
+	\item $\operatorname{C}=0.1 \:\left[\text{L}\over \text{cmH2O} \right]$
+\end{itemize}
+
+COMPLETA E INSERISCI REFERENCE 
+
+INSERISCI CIRCUito E DISEGNO 
+
+INSERISCI EQUAZIONI
+
+\subsection{Identificazione dei parametri}
+\lipsum[1-2]
+
+
+
+\subsection{Algoritmo di Nelder–Mead}
+
+
+
 \lipsum[1-5]
-\section{Metodi e risultati}
+\subsection{Metodo di Gauss-Newton}
+
+Un'alternativa è il metodo di Gauss-Newton. Il metodo, diversamente dal precedente, richiede di portare in conto anche le derivate. 
+
+
 
 \lipsum[1-5]
 
-\section{Conlusioni}
+\section{Metodi}
+
+\subsection{Minimizzazione}
+
+\subsection{Non identificabilità strutturale}
+
+\subsection{Parametri ottimi}
+
+\section{Conclusioni}
 \lipsum[1-5]
 
 %\pagebreak

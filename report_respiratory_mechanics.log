@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  1 APR 2022 15:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  1 APR 2022 18:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1291,45 +1291,45 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 \@quotelevel=\count494
 \@quotereset=\count495
 LaTeX Font Info:    Trying to load font information for T1+stix on input line 1
-41.
+42.
 (c:/texlive/2021/texmf-dist/tex/latex/stix/t1stix.fd
 File: t1stix.fd 2015/04/17 v1.1.2-latex STIX T1 font definitions
 )
 (./report_respiratory_mechanics.aux)
 \openout1 = `report_respiratory_mechanics.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 141.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 142.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for LS1/stix/m/n on input line 142.
 LaTeX Font Info:    Trying to load font information for LS1+stix on input line 
-141.
+142.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stix.fd
 File: ls1stix.fd 2015/04/17 v1.1.2-latex STIX LS1 font definitions
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Font Info:    Checking defaults for LS2/stix/m/n on input line 142.
 LaTeX Font Info:    Trying to load font information for LS2+stix on input line 
-141.
+142.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stix.fd
 File: ls2stix.fd 2015/04/17 v1.1.2-latex STIX LS2 font definitions
 )
-LaTeX Font Info:    ... okay on input line 141.
-LaTeX Info: Redefining \it@ocap on input line 141.
-LaTeX Info: Redefining \it@ccap on input line 141.
+LaTeX Font Info:    ... okay on input line 142.
+LaTeX Info: Redefining \it@ocap on input line 142.
+LaTeX Info: Redefining \it@ccap on input line 142.
 
 (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1370,9 +1370,9 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 141.
+or `english'. on input line 142.
 Package translations Info: no dictionary file `translations-basic-dictionary-it
-alian.trsl' found. on input line 141.
+alian.trsl' found. on input line 142.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
@@ -1386,15 +1386,15 @@ Package caption Info: End \AtBeginDocument code.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.90755pt, 539.69278pt, 28.90755pt)
-* v-part:(T,H,B)=(28.90755pt, 790.84436pt, 25.29494pt)
+* h-part:(L,W,R)=(50.58878pt, 496.33032pt, 50.58878pt)
+* v-part:(T,H,B)=(21.68121pt, 798.0707pt, 25.29494pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=539.69278pt
-* \textheight=723.84436pt
-* \oddsidemargin=-43.36244pt
-* \evensidemargin=-43.36244pt
-* \topmargin=-43.36244pt
+* \textwidth=496.33032pt
+* \textheight=731.0707pt
+* \oddsidemargin=-21.68121pt
+* \evensidemargin=-21.68121pt
+* \topmargin=-50.58878pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=11.0pt
@@ -1426,7 +1426,7 @@ s been generated with the most recent feature set (\pgfplotsset{compat=1.18}).
 \c@lstlisting=\count502
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 141.
+(lastpage)             ! on input line 142.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 (c:/texlive/2021/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1462,34 +1462,119 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'report_respiratory_mechanics.bbl' found.
 
 (./report_respiratory_mechanics.bbl)
-Package biblatex Info: Reference section=0 on input line 141.
-Package biblatex Info: Reference segment=0 on input line 141.
+Package biblatex Info: Reference section=0 on input line 142.
+Package biblatex Info: Reference segment=0 on input line 142.
  (./testo.tex
+Underfull \vbox (badness 3930) has occurred while \output is active []
+
 <figures//logo.png, id=4, 336.384pt x 337.698pt>
 File: figures//logo.png Graphic file (type png)
 <use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 9.
-(pdftex.def)             Requested size: 59.76631pt x 60.0pt.
+Package pdftex.def Info: figures//logo.png  used on input line 12.
+(pdftex.def)             Requested size: 44.82474pt x 45.0pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 64.08003pt, for example:
-(fancyhdr)                \setlength{\headheight}{64.08003pt}.
+(fancyhdr)                Make it at least 49.08003pt, for example:
+(fancyhdr)                \setlength{\headheight}{49.08003pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-52.08003pt}.
+(fancyhdr)                \addtolength{\topmargin}{-37.08003pt}.
 
 [1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./figures//logo.png>] [2]
+ <./figures//logo.png>]
+LaTeX Font Info:    Trying to load font information for TS1+stix on input line 
+18.
+ (c:/texlive/2021/texmf-dist/tex/latex/stix/ts1stix.fd
+File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
+ne 18.
 
-LaTeX Warning: Empty bibliography on input line 22.
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixscr.fd
+File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
+e 18.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixex.fd
+File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
+ine 18.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixfrak.fd
+File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
+e 18.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixbb.fd
+File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
+ne 18.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixcal.fd
+File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
+ons
+)
+LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
+e 18.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixsf.fd
+File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
+
+)
+LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
+e 18.
+
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixtt.fd
+File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
+
+)
+
+Package amsmath Warning: Foreign command \over;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 18.
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 40--40
+[]\T1/stix/m/n/10.95 Quisque ul-la-m-cor-per pla-ce-rat ip-sum. Cras nibh.
+ []
+
+[2]
+Underfull \hbox (badness 1325) in paragraph at lines 42--43
+[]\T1/stix/m/n/10.95 Un'alternativa è il metodo di Gauss-Newton. Il
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 42--43
+\T1/stix/m/n/10.95 metodo, di-ver-sa-mente dal prece-dente, richiede di
+ []
+
+
+Underfull \hbox (badness 1158) in paragraph at lines 47--47
+[]\T1/stix/m/n/10.95 Quisque ul-la-m-cor-per pla-ce-rat ip-sum. Cras nibh.
+ []
+
+[3]
+Underfull \hbox (badness 1158) in paragraph at lines 58--58
+[]\T1/stix/m/n/10.95 Quisque ul-la-m-cor-per pla-ce-rat ip-sum. Cras nibh.
+ []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3])
+ [4])
+Underfull \hbox (badness 1158) in paragraph at lines 164--164
+[]\T1/stix/m/n/10.95 Quisque ul-la-m-cor-per pla-ce-rat ip-sum. Cras nibh.
+ []
+
 
 Package caption Warning: Unused \captionsetup[figure] on input line 29.
 See the caption package documentation for explanation.
@@ -1504,28 +1589,32 @@ See the caption package documentation for explanation.
 
 
 AED: lastpage setting LastPage
-[4] (./report_respiratory_mechanics.aux)
+[5] (./report_respiratory_mechanics.aux)
 Package logreq Info: Writing requests to 'report_respiratory_mechanics.run.xml'
 .
 \openout1 = `report_respiratory_mechanics.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45762 strings out of 478579
- 1049037 string characters out of 5857457
- 1718244 words of memory out of 5000000
- 63011 multiletter control sequences out of 15000+600000
- 443805 words of font info for 45 fonts, out of 8000000 for 9000
+ 46126 strings out of 478579
+ 1056450 string characters out of 5857457
+ 1718443 words of memory out of 5000000
+ 63333 multiletter control sequences out of 15000+600000
+ 472856 words of font info for 93 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,15n,97p,1898b,1658s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}<c:/texlive/2021
-/texmf-dist/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2021/texmf
--dist/fonts/type1/public/stix/STIXGeneral-BoldItalic.pfb><c:/texlive/2021/texmf
--dist/fonts/type1/public/stix/STIXGeneral-Regular.pfb>
-Output written on report_respiratory_mechanics.pdf (4 pages, 146761 bytes).
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{c:/texlive/2021
+/texmf-dist/fonts/enc/dvips/stix/stix-ts1.enc}<c:/texlive/2021/texmf-dist/fonts
+/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2021/texmf-dist/fonts/type1
+/public/stix/STIXGeneral-Italic.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pub
+lic/stix/STIXGeneral-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public
+/stix/stix-mathex.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-
+mathit.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb>
+
+Output written on report_respiratory_mechanics.pdf (5 pages, 180207 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
- 24 compressed objects within 1 object stream
+ 61 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  18 words of extra memory for PDF output out of 10000 (max. 10000000)
 

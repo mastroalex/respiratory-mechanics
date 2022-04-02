@@ -11,7 +11,7 @@
 \usepackage{caption}
 
 \usepackage{multicol}
-\usepackage[includeheadfoot,margin=0.4in,bottom=0.35in]{geometry}
+\usepackage[includeheadfoot,margin=0.7in,top=0.3 in,bottom=0.35in]{geometry}
 %Per grafica vettoriale tramite InkScape%
 \usepackage{color}
 \usepackage{transparent}
@@ -46,7 +46,7 @@
 \definecolor{mintbg}{rgb}{.63,.79,.95}
 \graphicspath{{figures/}{code/figures/}} %Setting the graphicspath
 \makeatletter
-\def\input@path{{figures/}{code/figures/}}
+\def\input@path{{figures/}{code/figures/}{../code/figures/}}
 \makeatother
 \usepackage{import}
 \usepackage{authblk}
@@ -60,7 +60,7 @@
 \usepackage{authblk}
 \renewcommand\Affilfont{\tiny \color{gray}}
 
-\title{\vspace*{10 pt}\color{myGeneralColor}\Huge\textbf{Identificazione parametrica in un modello di meccanica respiratoria}\vspace*{1 pt}}
+\title{\vspace*{0 pt}\color{myGeneralColor}\Huge\textbf{Identificazione parametrica in un modello di meccanica respiratoria}\vspace*{1 pt}}
 \author[]{Mastrofini Alessandro}
 \affil[]{\small alessandro.mastrofini@alumni.uniroma2.eu}
 \renewcommand*{\Authand}{ e }
@@ -68,8 +68,8 @@
 \usepackage{fancyhdr}
 \pagestyle{fancy}
 \fancyhf{}
-	\lhead{\small\color{gray} University of Rome Tor Vergata}
-\fancyfoot[R]{\tiny{\thepage\  di \pageref{LastPage}}}
+	\lhead{\small\color{gray} University of Rome Tor Vergata - MSSF}
+\fancyfoot[C]{\small{\thepage\  di \pageref{LastPage}}}
 \renewcommand{\headrulewidth}{0.50pt}
 
 \fancypagestyle{plain}{
@@ -79,7 +79,7 @@
 	Docente: Caselli, Federica \\
 	Università degli Studi di Roma Tor Vergata\\
 	Ingegneria Medica - 2022}
-	\rhead{\includegraphics[height=60pt]{logo.png} }
+	\rhead{\includegraphics[height=45pt]{logo.png} }
 	\fancyfoot{}
 }
 \usepackage{lastpage}
@@ -90,6 +90,7 @@ backend=bibtex,
 style=numeric
 ]{biblatex} %Imports biblatex package
 \addbibresource{mybib.bib} %Import the bibliography file
+
 \usepackage{listings}
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
