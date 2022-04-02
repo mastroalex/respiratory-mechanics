@@ -19,52 +19,47 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: report_respiratory_mechanics-blx.bib
 Database file #2: mybib.bib
-Repeated entry---line 50 of file mybib.bib
- : @book{khoo_physiological_2018
- :                              ,
-I'm skipping whatever remains of this entry
 Biblatex version: 3.16
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
-You've used 3 entries,
+You've used 6 entries,
             6393 wiz_defined-function locations,
-            1219 strings with 10843 characters,
-and the built_in function-call counts, 16325 in all, are:
-= -- 1187
-> -- 346
-< -- 115
-+ -- 342
-- -- 126
-* -- 1136
-:= -- 1747
+            1248 strings with 12623 characters,
+and the built_in function-call counts, 38724 in all, are:
+= -- 2740
+> -- 934
+< -- 231
++ -- 996
+- -- 486
+* -- 2853
+:= -- 4168
 add.period$ -- 0
-call.type$ -- 3
-change.case$ -- 75
-chr.to.int$ -- 42
-cite$ -- 4
-duplicate$ -- 1363
-empty$ -- 1468
-format.name$ -- 138
-if$ -- 3500
+call.type$ -- 6
+change.case$ -- 123
+chr.to.int$ -- 72
+cite$ -- 10
+duplicate$ -- 3404
+empty$ -- 3526
+format.name$ -- 335
+if$ -- 7923
 int.to.chr$ -- 0
-int.to.str$ -- 8
+int.to.str$ -- 17
 missing$ -- 0
-newline$ -- 100
-num.names$ -- 148
-pop$ -- 726
+newline$ -- 229
+num.names$ -- 298
+pop$ -- 1750
 preamble$ -- 1
-purify$ -- 85
+purify$ -- 148
 quote$ -- 0
-skip$ -- 596
+skip$ -- 1175
 stack$ -- 0
-substring$ -- 2204
-swap$ -- 377
-text.length$ -- 82
-text.prefix$ -- 2
+substring$ -- 5276
+swap$ -- 932
+text.length$ -- 177
+text.prefix$ -- 5
 top$ -- 1
-type$ -- 90
+type$ -- 192
 warning$ -- 0
-while$ -- 215
+while$ -- 492
 width$ -- 0
-write$ -- 98
-(There was 1 error message)
+write$ -- 224

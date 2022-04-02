@@ -1,4 +1,4 @@
-function [J]=jacobian_fun(theta_ref,u,t);
+function [J]=jacobian_fun(theta_ref,u,t)
 % number of parameters
 N_p=length(theta_ref);
 y_ref=rlc_fun_two_param(theta_ref,u,t);

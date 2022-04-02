@@ -29,6 +29,13 @@
 \captionsetup[figure]{font={color=gray,small},labelfont={color=black,sc}}
 \captionsetup[table]{font={color=gray,small},labelfont={color=black,sc}}
 \captionsetup[subfigure]{font={color=gray,small},labelfont={color=black}}
+\addto\captionsenglish{\renewcommand{\figurename}{Fig.}}
+\addto\captionsenglish{\renewcommand{\tablename}{Tab.}}
+\addto\captionsitalian{\renewcommand{\tablename}{Tab.}}
+\crefname{table}{Tab.}{Tabs.}  
+
+\usepackage{cancel}
+
 \usepackage{subcaption}
 \usepackage{titlesec}
 \titleformat*{\section}{\Large\bfseries\color{myGeneralColor}}

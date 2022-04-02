@@ -110,5 +110,143 @@
     \endverb
     \field{year}{2018}
   \endentry
+
+  \entry{lagarias_convergence_1998}{article}{}
+    \name{author}{4}{}{%
+      {{hash=LJC}{%
+         family={Lagarias},
+         familyi={L\bibinitperiod},
+         given={Jeffrey\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=RJA}{%
+         family={Reeds},
+         familyi={R\bibinitperiod},
+         given={James\bibnamedelima A.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=WMH}{%
+         family={Wright},
+         familyi={W\bibinitperiod},
+         given={Margaret\bibnamedelima H.},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=WPE}{%
+         family={Wright},
+         familyi={W\bibinitperiod},
+         given={Paul\bibnamedelima E.},
+         giveni={P\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{LJC+1}
+    \strng{fullhash}{LJCRJAWMHWPE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \verb{doi}
+    \verb 10.1137/S1052623496303470
+    \endverb
+    \field{issn}{1052-6234, 1095-7189}
+    \field{number}{1}
+    \field{pages}{112\bibrangedash 147}
+    \field{title}{Convergence {Properties} of the {Nelder}--{Mead} {Simplex}
+  {Method} in {Low} {Dimensions}}
+    \verb{url}
+    \verb http://epubs.siam.org/doi/10.1137/S1052623496303470
+    \endverb
+    \field{volume}{9}
+    \verb{file}
+    \verb Lagarias et al_1998_Convergence Properties of the Nelder--Mead Simple
+    \verb x Method in Low Dimensions.pdf:C\:\\Users\\bigba\\Zotero\\storage\\D8
+    \verb WKEH8C\\Lagarias et al_1998_Convergence Properties of the Nelder--Mea
+    \verb d Simplex Method in Low Dimensions.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{SIAM Journal on Optimization}
+    \field{annotation}{%
+    Annotations(01/04/2022, 16:15:13) “first published in 1965, is an
+  enormously popular direct search method for multidimensional unconstrained
+  minimization” (Lagarias et al., 1998, p. 112)“nonlinear unconstrained
+  optimization” (Lagarias et al., 1998, p. 112)“including the Nelder–Mead
+  method, maintain at each step a nondegenerate simplex, a geometric figure in
+  n dimensions of nonzero volume that is the convex hull of n + 1 vertices”
+  (Lagarias et al., 1998, p. 112) [[simplex]]%
+    }
+    \field{month}{01}
+    \field{year}{1998}
+    \field{urlday}{01}
+    \field{urlmonth}{04}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{idinput}{online}{}
+    \name{author}{1}{}{%
+      {{hash=MM}{%
+         family={Matlab},
+         familyi={M\bibinitperiod},
+         given={MathWorks},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MM1}
+    \strng{fullhash}{MM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{Generate input signals to support system identification}
+    \verb{url}
+    \verb https://it.mathworks.com/help/ident/ref/idinput.html
+    \endverb
+  \endentry
+
+  \entry{nocedal_numerical_2006}{book}{}
+    \name{author}{2}{}{%
+      {{hash=NJ}{%
+         family={Nocedal},
+         familyi={N\bibinitperiod},
+         given={Jorge},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=WSJ}{%
+         family={Wright},
+         familyi={W\bibinitperiod},
+         given={Stephen\bibnamedelima J.},
+         giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \keyw{Mathematical optimization}
+    \strng{namehash}{NJWSJ1}
+    \strng{fullhash}{NJWSJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{edition}{2nd ed}
+    \field{isbn}{978-0-387-30303-1}
+    \field{note}{OCLC: ocm68629100}
+    \field{series}{Springer series in operations research}
+    \field{title}{Numerical optimization}
+    \list{location}{1}{%
+      {New York}%
+    }
+    \verb{file}
+    \verb Nocedal_Wright_2006_Numerical optimization.pdf:C\:\\Users\\bigba\\Zot
+    \verb ero\\storage\\VLJUJAGK\\Nocedal_Wright_2006_Numerical optimization.pd
+    \verb f:application/pdf
+    \endverb
+    \field{annotation}{%
+    Annotations(02/04/2022, 11:52:23) “e now describe methods for minimizing
+  the nonlinear objective function (10.1) that exploit the structure in the
+  gradient” (Nocedal and Wright, 2006, p. 273)%
+    }
+    \field{year}{2006}
+  \endentry
 \enddatalist
 \endinput

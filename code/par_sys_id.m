@@ -75,7 +75,8 @@ theta_true=[R; L; C];
 theta_init=[1.5; 0.8; 2.8].*theta_true; 
 
 % optimization
-[theta_est,obj_fun_val,exitflag,output]=fminsearch('obj_fun',theta_init,[],y,u,t);
+options = optimset('PlotFcns',@optimplotfval); % add monitoring graphs
+[theta_est,obj_fun_val,exitflag,output]=fminsearch('obj_fun',theta_init,options,y,u,t);
 
 % visualize optimization report
 disp(' ')
@@ -112,7 +113,9 @@ disp(abs(theta_est(3)-theta_true(3))/abs(theta_true(3)))
 % Sensitivity of measurements with respect to parameters
 % J (N_m x N_p)
 % J_mp=derivative of m-th measure with respect to p-th parameter
-
+disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
+disp('Sensitivity analysis')
+disp('%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%')
 
 % reference parameter values
 theta_ref=theta_true;
