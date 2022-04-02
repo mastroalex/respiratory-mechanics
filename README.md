@@ -1,9 +1,10 @@
 # Parametric identification for respiratory mechanics model
 
-University of Rome Tor Vergata - Medical Engineering
+_University of Rome Tor Vergata - Medical Engineering_
 
-MSSF Course - Prof. Caselli, F.
+_MSSF Course - Prof. Caselli, F._
 
+**Physiological Systems Modeling and Simulation **
 
 
 ---
