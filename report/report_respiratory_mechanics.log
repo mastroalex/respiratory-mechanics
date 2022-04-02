@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  2 APR 2022 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  2 APR 2022 19:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1573,32 +1573,33 @@ Underfull \hbox (badness 2150) in paragraph at lines 33--34
 \T1/stix/m/n/12 un'unica re-sistenza e un'unica com-pli-ance che
  []
 
-(./code/figures//lung_model.pdf_tex
-<code/figures//lung_model.pdf, id=14, page=1, 133.96074pt x 185.74194pt>
-File: code/figures//lung_model.pdf Graphic file (type pdf)
-<use code/figures//lung_model.pdf, page 1>
-Package pdftex.def Info: code/figures//lung_model.pdf , page1 used on input lin
-e 56.
+(../code/figures//lung_model.pdf_tex
+<../code/figures//lung_model.pdf, id=14, page=1, 133.96074pt x 185.74194pt>
+File: ../code/figures//lung_model.pdf Graphic file (type pdf)
+<use ../code/figures//lung_model.pdf, page 1>
+Package pdftex.def Info: ../code/figures//lung_model.pdf , page1 used on input 
+line 56.
 (pdftex.def)             Requested size: 194.53287pt x 269.74121pt.
-<code/figures//lung_model.pdf, id=15, page=2, 133.96074pt x 185.74194pt>
-File: code/figures//lung_model.pdf Graphic file (type pdf)
-<use code/figures//lung_model.pdf, page 2>
-Package pdftex.def Info: code/figures//lung_model.pdf , page2 used on input lin
-e 61.
+<../code/figures//lung_model.pdf, id=15, page=2, 133.96074pt x 185.74194pt>
+File: ../code/figures//lung_model.pdf Graphic file (type pdf)
+<use ../code/figures//lung_model.pdf, page 2>
+Package pdftex.def Info: ../code/figures//lung_model.pdf , page2 used on input 
+line 61.
 (pdftex.def)             Requested size: 194.53287pt x 269.74121pt.
-) (./code/figures//RLC.pdf_tex
-<code/figures//RLC.pdf, id=16, page=1, 238.00426pt x 165.56795pt>
-File: code/figures//RLC.pdf Graphic file (type pdf)
-<use code/figures//RLC.pdf, page 1>
-Package pdftex.def Info: code/figures//RLC.pdf , page1 used on input line 56.
+) (../code/figures//RLC.pdf_tex
+<../code/figures//RLC.pdf, id=16, page=1, 238.00426pt x 165.56795pt>
+File: ../code/figures//RLC.pdf Graphic file (type pdf)
+<use ../code/figures//RLC.pdf, page 1>
+Package pdftex.def Info: ../code/figures//RLC.pdf , page1 used on input line 56
+.
 (pdftex.def)             Requested size: 210.9419pt x 146.7436pt.
 )
-(./code/figures//RLC_tf.pdf_tex
-<code/figures//RLC_tf.pdf, id=17, page=1, 374.65018pt x 86.22765pt>
-File: code/figures//RLC_tf.pdf Graphic file (type pdf)
-<use code/figures//RLC_tf.pdf, page 1>
-Package pdftex.def Info: code/figures//RLC_tf.pdf , page1 used on input line 56
-.
+(../code/figures//RLC_tf.pdf_tex
+<../code/figures//RLC_tf.pdf, id=17, page=1, 374.65018pt x 86.22765pt>
+File: ../code/figures//RLC_tf.pdf Graphic file (type pdf)
+<use ../code/figures//RLC_tf.pdf, page 1>
+Package pdftex.def Info: ../code/figures//RLC_tf.pdf , page1 used on input line
+ 56.
 (pdftex.def)             Requested size: 198.53288pt x 45.69385pt.
 )
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
@@ -1615,10 +1616,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2 <./code/figures//lung_model.pdf> <./code/figures//lung_model.pdf
+[2 <../code/figures//lung_model.pdf> <../code/figures//lung_model.pdf
 
-pdfTeX warning: pdflatex.exe (file ./code/figures//lung_model.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ../code/figures//lung_model.pdf): PDF inclus
+ion: multiple pdfs with page group included in a single page
 >]
 Underfull \hbox (badness 1092) in paragraph at lines 104--105
 []\T1/stix/m/n/12 Uno dei pos-si-bili modi per af-frontare questo
@@ -1634,25 +1635,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--123
 []\T1/stix/m/n/12 Utilizzando quindi l'algoritmo di New-ton
  []
 
-<code/figures//step.pdf, id=28, 360.34625pt x 308.15125pt>
-File: code/figures//step.pdf Graphic file (type pdf)
-<use code/figures//step.pdf>
-Package pdftex.def Info: code/figures//step.pdf  used on input line 150.
+<../code/figures//step.pdf, id=28, 360.34625pt x 308.15125pt>
+File: ../code/figures//step.pdf Graphic file (type pdf)
+<use ../code/figures//step.pdf>
+Package pdftex.def Info: ../code/figures//step.pdf  used on input line 150.
 (pdftex.def)             Requested size: 111.67355pt x 95.49768pt.
-<code/figures//rgs.pdf, id=29, 360.34625pt x 308.15125pt>
-File: code/figures//rgs.pdf Graphic file (type pdf)
-<use code/figures//rgs.pdf>
-Package pdftex.def Info: code/figures//rgs.pdf  used on input line 154.
+<../code/figures//rgs.pdf, id=29, 360.34625pt x 308.15125pt>
+File: ../code/figures//rgs.pdf Graphic file (type pdf)
+<use ../code/figures//rgs.pdf>
+Package pdftex.def Info: ../code/figures//rgs.pdf  used on input line 154.
 (pdftex.def)             Requested size: 111.67355pt x 95.49768pt.
-<code/figures//rbs.pdf, id=30, 360.34625pt x 308.15125pt>
-File: code/figures//rbs.pdf Graphic file (type pdf)
-<use code/figures//rbs.pdf>
-Package pdftex.def Info: code/figures//rbs.pdf  used on input line 158.
+<../code/figures//rbs.pdf, id=30, 360.34625pt x 308.15125pt>
+File: ../code/figures//rbs.pdf Graphic file (type pdf)
+<use ../code/figures//rbs.pdf>
+Package pdftex.def Info: ../code/figures//rbs.pdf  used on input line 158.
 (pdftex.def)             Requested size: 111.67355pt x 95.49768pt.
-<code/figures//prbs.pdf, id=31, 360.34625pt x 308.15125pt>
-File: code/figures//prbs.pdf Graphic file (type pdf)
-<use code/figures//prbs.pdf>
-Package pdftex.def Info: code/figures//prbs.pdf  used on input line 162.
+<../code/figures//prbs.pdf, id=31, 360.34625pt x 308.15125pt>
+File: ../code/figures//prbs.pdf Graphic file (type pdf)
+<use ../code/figures//prbs.pdf>
+Package pdftex.def Info: ../code/figures//prbs.pdf  used on input line 162.
 (pdftex.def)             Requested size: 111.67355pt x 95.49768pt.
 
 Underfull \hbox (badness 3158) in paragraph at lines 177--178
@@ -1667,21 +1668,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3 <./code/figures//RLC.pdf> <./code/figures//RLC_tf.pdf
+[3 <../code/figures//RLC.pdf> <../code/figures//RLC_tf.pdf
 
-pdfTeX warning: pdflatex.exe (file ./code/figures//RLC_tf.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ../code/figures//RLC_tf.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
 >]
 Underfull \hbox (badness 10000) in paragraph at lines 197--197
 [][][]\T1/stix/m/sc/10.95 Tab. 1[][]: []|\T1/stix/m/n/10.95 Risul-tati dell'ott
 imizzazione con
  []
 
-<code/figures//primo_test_4_parametri.pdf, id=43, 356.33125pt x 308.15125pt>
-File: code/figures//primo_test_4_parametri.pdf Graphic file (type pdf)
-<use code/figures//primo_test_4_parametri.pdf>
-Package pdftex.def Info: code/figures//primo_test_4_parametri.pdf  used on inpu
-t line 203.
+<../code/figures//primo_test_4_parametri.pdf, id=43, 356.33125pt x 308.15125pt>
+
+File: ../code/figures//primo_test_4_parametri.pdf Graphic file (type pdf)
+<use ../code/figures//primo_test_4_parametri.pdf>
+Package pdftex.def Info: ../code/figures//primo_test_4_parametri.pdf  used on i
+nput line 203.
 (pdftex.def)             Requested size: 243.16516pt x 210.28769pt.
 
 Underfull \vbox (badness 1199) has occurred while \output is active []
@@ -1695,8 +1697,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4 <./code/figures//step.pdf> <./code/figures//rgs.pdf> <./code/figures//rbs.pd
-f> <./code/figures//prbs.pdf> <./code/figures//primo_test_4_parametri.pdf>]
+[4 <../code/figures//step.pdf> <../code/figures//rgs.pdf> <../code/figures//rbs
+.pdf> <../code/figures//prbs.pdf> <../code/figures//primo_test_4_parametri.pdf>
+]
 Underfull \hbox (badness 8000) in paragraph at lines 232--233
 []\T1/stix/m/n/12 Per farlo viene ri-or-ga-niz-zato il codice in
  []
@@ -1706,10 +1709,10 @@ Underfull \hbox (badness 1097) in paragraph at lines 232--233
 \T1/stix/m/n/12 modo da rac-chi-ud-ere la gen-er-azione dei dati e
  []
 
-<code/figures//error.pdf, id=63, 365.365pt x 279.0425pt>
-File: code/figures//error.pdf Graphic file (type pdf)
-<use code/figures//error.pdf>
-Package pdftex.def Info: code/figures//error.pdf  used on input line 236.
+<../code/figures//error.pdf, id=63, 365.365pt x 279.0425pt>
+File: ../code/figures//error.pdf Graphic file (type pdf)
+<use ../code/figures//error.pdf>
+Package pdftex.def Info: ../code/figures//error.pdf  used on input line 236.
 (pdftex.def)             Requested size: 231.00615pt x 176.42786pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 242--243
@@ -1726,24 +1729,24 @@ Underfull \hbox (badness 2503) in paragraph at lines 242--243
 \T1/stix/m/n/12 min-i-miz-zazione della fun-zione obi-et-tivo per il
  []
 
-<code/figures//convergence_vs_relaxation.pdf, id=64, 360.34625pt x 304.13625pt>
-
-File: code/figures//convergence_vs_relaxation.pdf Graphic file (type pdf)
-<use code/figures//convergence_vs_relaxation.pdf>
-Package pdftex.def Info: code/figures//convergence_vs_relaxation.pdf  used on i
-nput line 251.
+<../code/figures//convergence_vs_relaxation.pdf, id=64, 360.34625pt x 304.13625
+pt>
+File: ../code/figures//convergence_vs_relaxation.pdf Graphic file (type pdf)
+<use ../code/figures//convergence_vs_relaxation.pdf>
+Package pdftex.def Info: ../code/figures//convergence_vs_relaxation.pdf  used o
+n input line 251.
 (pdftex.def)             Requested size: 210.9419pt x 178.03732pt.
-<code/figures//error_vs_relaxation.pdf, id=65, 360.34625pt x 303.1325pt>
-File: code/figures//error_vs_relaxation.pdf Graphic file (type pdf)
-<use code/figures//error_vs_relaxation.pdf>
-Package pdftex.def Info: code/figures//error_vs_relaxation.pdf  used on input l
-ine 256.
+<../code/figures//error_vs_relaxation.pdf, id=65, 360.34625pt x 303.1325pt>
+File: ../code/figures//error_vs_relaxation.pdf Graphic file (type pdf)
+<use ../code/figures//error_vs_relaxation.pdf>
+Package pdftex.def Info: ../code/figures//error_vs_relaxation.pdf  used on inpu
+t line 256.
 (pdftex.def)             Requested size: 210.9419pt x 177.44974pt.
-<code/figures//gaussnewton.pdf, id=66, 384.43625pt x 299.1175pt>
-File: code/figures//gaussnewton.pdf Graphic file (type pdf)
-<use code/figures//gaussnewton.pdf>
-Package pdftex.def Info: code/figures//gaussnewton.pdf  used on input line 265.
-
+<../code/figures//gaussnewton.pdf, id=66, 384.43625pt x 299.1175pt>
+File: ../code/figures//gaussnewton.pdf Graphic file (type pdf)
+<use ../code/figures//gaussnewton.pdf>
+Package pdftex.def Info: ../code/figures//gaussnewton.pdf  used on input line 2
+65.
 (pdftex.def)             Requested size: 218.84715pt x 170.27966pt.
 
 Underfull \hbox (badness 3815) in paragraph at lines 276--277
@@ -1758,13 +1761,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5 <./code/figures//error.pdf>]
-<code/figures//convergence_vs_initial_guess.pdf, id=82, 360.34625pt x 301.125pt
->
-File: code/figures//convergence_vs_initial_guess.pdf Graphic file (type pdf)
-<use code/figures//convergence_vs_initial_guess.pdf>
-Package pdftex.def Info: code/figures//convergence_vs_initial_guess.pdf  used o
-n input line 304.
+[5 <../code/figures//error.pdf>]
+<../code/figures//convergence_vs_initial_guess.pdf, id=82, 360.34625pt x 301.12
+5pt>
+File: ../code/figures//convergence_vs_initial_guess.pdf Graphic file (type pdf)
+
+<use ../code/figures//convergence_vs_initial_guess.pdf>
+Package pdftex.def Info: ../code/figures//convergence_vs_initial_guess.pdf  use
+d on input line 304.
 (pdftex.def)             Requested size: 218.84715pt x 182.87729pt.
 
 Underfull \hbox (badness 1259) in paragraph at lines 319--320
@@ -1779,9 +1783,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6 <./code/figures//convergence_vs_relaxation.pdf> <./code/figures//error_vs_re
-laxation.pdf> <./code/figures//gaussnewton.pdf> <./code/figures//convergence_vs
-_initial_guess.pdf>]
+[6 <../code/figures//convergence_vs_relaxation.pdf> <../code/figures//error_vs_
+relaxation.pdf> <../code/figures//gaussnewton.pdf> <../code/figures//convergenc
+e_vs_initial_guess.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 326--327
 []\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
  []
@@ -1860,8 +1864,8 @@ Package logreq Info: Writing requests to 'report_respiratory_mechanics.run.xml'
  ) 
 Here is how much of TeX's memory you used:
  46373 strings out of 478579
- 1063271 string characters out of 5857457
- 1720826 words of memory out of 5000000
+ 1063547 string characters out of 5857457
+ 1720844 words of memory out of 5000000
  63559 multiletter control sequences out of 15000+600000
  483423 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1879,7 +1883,7 @@ t1095.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
 -dist/fonts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fonts
 /type1/public/stix/stix-mathscr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pub
 lic/stix/stix-mathtt.pfb>
-Output written on report_respiratory_mechanics.pdf (7 pages, 336213 bytes).
+Output written on report_respiratory_mechanics.pdf (7 pages, 336227 bytes).
 PDF statistics:
  164 PDF objects out of 1000 (max. 8388607)
  107 compressed objects within 2 object streams
