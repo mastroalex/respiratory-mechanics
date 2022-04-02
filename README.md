@@ -4,7 +4,7 @@ _University of Rome Tor Vergata - Medical Engineering_
 
 _MSSF Course - Prof. Caselli, F._
 
-**Physiological Systems Modeling and Simulation **
+**Physiological Systems Modeling and Simulation**
 
 
 ---
