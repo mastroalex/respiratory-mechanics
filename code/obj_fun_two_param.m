@@ -2,7 +2,7 @@
 % F. Caselli, MSSF A.A. 2020/2021
 % % % % % % % % % % % % % % % % % % % % % % % %
 
-function E=obj_fun(theta,y,u,t)
+function E=obj_fun_two_param(theta,y,u,t)
 % evaluate objective function value (E) corresponding to given parameter
 % values (theta) in the state-space formulation of the linear lung
 % mechanics model

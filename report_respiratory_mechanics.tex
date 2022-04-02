@@ -1,4 +1,4 @@
-\documentclass[11 pt,a4paper,twocolumn]{article}
+\documentclass[12 pt,a4paper,twocolumn]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[italian,english]{babel}
@@ -67,7 +67,7 @@
 \usepackage{authblk}
 \renewcommand\Affilfont{\tiny \color{gray}}
 
-\title{\vspace*{0 pt}\color{myGeneralColor}\Huge\textbf{Identificazione parametrica in un modello di meccanica respiratoria}\vspace*{1 pt}}
+\title{\vspace*{10 pt}\color{myGeneralColor}\Huge\textbf{Identificazione parametrica in un modello di meccanica respiratoria}\vspace*{1 pt}}
 \author[]{Mastrofini Alessandro}
 \affil[]{\small alessandro.mastrofini@alumni.uniroma2.eu}
 \renewcommand*{\Authand}{ e }
@@ -77,10 +77,10 @@
 \fancyhf{}
 	\lhead{\small\color{gray} University of Rome Tor Vergata - MSSF}
 \fancyfoot[C]{\small{\thepage\  di \pageref{LastPage}}}
-\renewcommand{\headrulewidth}{0.50pt}
+\renewcommand{\headrulewidth}{0pt}
 
 \fancypagestyle{plain}{
-	\renewcommand{\headrulewidth}{0.5pt}
+	\renewcommand{\headrulewidth}{0pt}
 	%\setlength{\headheight}{80 pt} 
 	\lhead{\small\color{gray} Modellazione e Simulazione di Sistemi Fisiologici  \\
 	Docente: Caselli, Federica \\
@@ -158,9 +158,21 @@ style=numeric
 	\let\endcenter\endflushleft
 	\endgroup
 	\begin{abstract}
-\fontsize{11}{11}\selectfont{
-\lipsum[1-2]
-}
+\noindent
+Nel seguente report viene analizzato un modello lineare di meccanica polmonare. Il modello corrisponde ad un circuito RLC con parametri incogniti. 
+
+\noindent
+L'identificazione parametrica permette di risalire ai coefficienti di governo del sistema una volta stimato un modello matematico. 
+
+\noindent
+Diversi approcci permettono di minimizzare la differenza tra i parametri stimati e le misure reali. 
+
+\noindent
+Viene affrontato un approccio privo di differenziazione numerica, tramite algoritmo di Nelder-Mead e un approccio mediante il metodo di Gauss-Newton rilassato. 
+
+\noindent
+Entrambi i metodi portano alla stima corretta dei parametri ma alcune considerazioni permettono di ottimizzarne le prestazioni. 
+
 %% ABSTRACT 
 
 	\end{abstract}

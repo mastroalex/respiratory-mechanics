@@ -7,12 +7,19 @@ function [y_pred,u]=rlc_fun_two_param(theta,u,t)
 % model prediction in response to input forcing (given in vector u)
 % and for given parameter values of R, L and C
 
-% extract R, L, and C from parameter vector
-%R=theta(1); L=theta(2); C=theta(3);
-%non serve estrarre RLC ma uso direttamente theta1 e theta2
+% it's not neceessary to extract components
+% only pass theta1=LC and theta2=RC to the transfer function
+
+%%%%%%%%%%%%%%%%%%%%
+% check theta to avoid use this function with the 3 parameters version of
+% the code. It could be a problem because would not return an error but
+% only return a different response (not corrected) 
+
 if not(length(theta)==2)
     error('Check theta lenght')
 end
+%%%%%%%%%%%%%%%%%%%%
+
 % define transfer function
 num=(1);
 den=[theta(1)  theta(2)  1];

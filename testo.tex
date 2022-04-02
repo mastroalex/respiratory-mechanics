@@ -1,5 +1,15 @@
 \section{Introduzione}
-\textcolor{blue}{\lipsum[1-2]}
+
+La meccanica respiratoria viene descritta in letteratura da numerosi modelli. Tra questi, un modello valido in determinate condizioni è rappresentato da un circuito RLC. Il modello permette di descrivere la meccanica respiratoria di un individuo sano. 
+
+A partire dalle misure dell'indivuduo è possibile stimare i parametri per rappresentarlo tramite il modello stimato. Questo processo, sotto il nome di ottimizzazione parametrica, permette di adattare il sistema generale al caso specifico.
+
+Nella seguente analisi viene affrontata la tecnica di identificazione parametriche tramite minimizzazione della differenza tra la risposta misurata e quella stimata.
+
+Differenti tecniche di ottimizzazione permettono di stimare i parametri che permettono di descrivere il sistema considerato. 
+
+Viene descritto sia il metodo di Nelder-Mead sia il metodo di Gauss-Newton, analizzandone punti in comune e differenze. Vengono fatte anche alcune considerazioni sulla convergenza del metodo e sul corretto condizionamento del problema.
+
 \section{Background}
 
 L'identificazione di sistemi è un insieme di tecniche che si prefigge lo scopo di identificare i parametri e il sistema tale da descrivere un certo fenomeno. La prima grande distinzione vede la separazione di due tecniche: identificazione parametrica e non parametrica. La prima parte stimando un modello del fenomeno e punta ad identificare i parametri che lo rappresentano. L'identificazione non parametrica, invece, procede senza conoscere il modello del fenomeno, al più ne stima alcune caratteristiche, e punta ad identificare il sistema che meglio lo descrive.
@@ -134,6 +144,29 @@ Dove l'incremento sarà:
 \underline h^{(k)}=-\left.\left[\underline{\underline{J^{T}}} \:\underline{\underline{J}}\right]^{-1} \cdot \underline{\underline{J}}^{T} \underline{\underline{e}}\right|_{\underline{p}}(k)
 \end{equation}
 
+
+\begin{figure*}
+	\begin{subfigure}{0.25\linewidth}
+		\includegraphics[width=0.9\linewidth]{step}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.25\linewidth}
+		\includegraphics[width=0.9\linewidth]{rgs}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.25\linewidth}
+		\includegraphics[width=0.9\linewidth]{rbs}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.25\linewidth}
+		\includegraphics[width=0.9\linewidth]{prbs}
+		\caption{}
+	\end{subfigure}\hfill
+	\caption{Differenti ingressi utilizzati per stimolare il sistema RLC. Ingresso a gradino (a); ingresso di tipo binario random (b); segnale gaussiano random (c); segnale binario pseudorandomico (d). I segnali sono stati generati tramite il comando \texttt{idinput()} appositamente per l'identificazione di sistemi \cite{idinput}.}
+	\label{fig:inputs}
+\end{figure*}
+
+
 \section{Metodi}
 
 Dunque il problema di identificazione parametrica viene affrontato come un problema di minimizzazione che porta a trovare i parametri ottimali. Sono quindi riportate le due differenti analisi.
@@ -149,7 +182,7 @@ Effettuando un primo test, con rumore gaussiano, è possibile stimare i parametr
 
 Inoltre, è possibile estrarre alcune informazioni dal processo di ottimizzazione. In particolare, si vede come nonostante la risposta del sistema viene stimata correttamente (\cref{fig:primo_test_4_parametri}), l'errore sui parametri è piuttosto alto (\cref{tab:test_3_param}).
 
-\begin{table}
+\begin{table}[bt]
 \begin{tabular}{|c|c|c|c|c|}
 	\hline
 	& Vero & Iniziale & Stimato & Errore relativo \\
@@ -165,11 +198,11 @@ Inoltre, è possibile estrarre alcune informazioni dal processo di ottimizzazion
 \label{tab:test_3_param}
 \end{table}
 
-\begin{figure}
+\begin{figure}[bt]
 	\centering
-\includegraphics[width=\linewidth]{primo_test_4_parametri}
-\caption{Confronto tra la risposta vera (con aggiunta di rumore gaussiano) e la risposta stimata dopo aver ottimizzato i parametri (caso iniziale con 3 parametri). La risposta viene stimata correttamente e la procedura di stima va ad effettuare una sorta di filtraggio del rumore.}
-\label{fig:primo_test_4_parametri}
+	\includegraphics[width=\linewidth]{primo_test_4_parametri}
+	\caption{Confronto tra la risposta vera (con aggiunta di rumore gaussiano) e la risposta stimata dopo aver ottimizzato i parametri (caso iniziale con 3 parametri). La risposta viene stimata correttamente e la procedura di stima va ad effettuare una sorta di filtraggio del rumore.}
+	\label{fig:primo_test_4_parametri}
 \end{figure}
 
 \subsection{Non identificabilità strutturale}
@@ -178,6 +211,7 @@ Il problema, per come è stato posto, presenta una formulazione sbagliata. Infat
 Per calcolarlo è sufficiente perturbare rispetto al j\textsuperscript{mo} parametro e calcolarne la derivata come rapporto incrementale tra la risposta del sistema con ingresso perturbato e lo stato non perturbato rispetto la perturbazione:
 \begin{equation}
 	J_{i}={y_{\operatorname{pert}}-y_{\operatorname{ref}}\over |\operatorname{pert_i}|}
+	\label{eq:J}
 \end{equation}
 
 I risultati numerici mostrano come la matrice ha un numero di condizionamento molto alto $1.856 \:10^7$ ma sembrerebbe avere rango massimo. Tuttavia, andando ad indagare i valori singolari si vede come uno dei tre è in realtà molto piccolo, abbastanza da poter essere considerato numericamente nullo. Nonostante il software percepisce un numero diverso da zero questo è in realtà nullo ed indica come nel problema c'è una dipendenza tra i parametri.
@@ -185,8 +219,8 @@ I risultati numerici mostrano come la matrice ha un numero di condizionamento mo
 Questo è legato al fatto che nella risposta di trasferimento in realtà i parametri sono soltanto due, dati dal prodotto dei tre valori numerici legati ai componenti circuitali:
 \begin{equation}
 	\begin{aligned}
-		\theta_1&=L*C\\
-		\theta_2&=R*C
+		\theta_1&=LC\\
+		\theta_2&=RC
 	\end{aligned}
 \end{equation}
 
@@ -195,44 +229,115 @@ Questo è legato al fatto che nella risposta di trasferimento in realtà i param
 Considerando quindi il problema nella sua versione ben condizionata è possibile procedere a stimare i parametri $\theta_1$ e $\theta_2$. 
 In particolare è possibile analizzare il risultato ottenuto considerando diversi ingressi, mostrati in \cref{fig:inputs}.
 
-\begin{figure*}
-\begin{subfigure}{0.25\linewidth}
-	\includegraphics[width=0.9\linewidth]{step}
-	\caption{}
-\end{subfigure}\hfill
-	\begin{subfigure}{0.25\linewidth}
-	\includegraphics[width=0.9\linewidth]{rgs}
-	\caption{}
-\end{subfigure}\hfill
-	\begin{subfigure}{0.25\linewidth}
-	\includegraphics[width=0.9\linewidth]{rbs}
-	\caption{}
-\end{subfigure}\hfill
-	\begin{subfigure}{0.25\linewidth}
-	\includegraphics[width=0.9\linewidth]{prbs}
-	\caption{}
-\end{subfigure}\hfill
-	\caption{Differenti ingressi utilizzati per stimolare il sistema RLC. Ingresso a gradino (a); ingresso di tipo binario random (b); segnale gaussiano random (c); segnale binario pseudorandomico (d). I segnali sono stati generati tramite il comando \texttt{idinput()} appositamente per l'identificazione di sistemi \cite{idinput}.}
-	\label{fig:inputs}
-\end{figure*}
-
 Per farlo viene riorganizzato il codice in modo da racchiudere la generazione dei dati e l'ottimizzazione in due procedure che possono essere richiamate di volta in volta con i differenti ingressi. Con tutti gli ingressi testati l'errore rimane sotto il 2\% pur mantenendo una certa variabilità tra le differenti iterazioni. 
 
-\begin{figure}
+\begin{figure}[bt]
 	\centering
 	\includegraphics[width=0.95\linewidth]{error}
 	\caption{Errore sui due parametri con i differenti segnali di ingresso utilizzati. Tra differenti ripetizioni dell'algoritmo l'errore potrebbe variare (sia a causa del metodo che della randomicità degli ingressi)}
 \end{figure}
+
+\subsection{Gauss Newton}
+
+Un approccio differente prevede l'utilizzo dell'algoritmo di Gauss Newton. Si cerca la minimizzazione della funzione obiettivo per il tramite dell'iterazione in \cref{eq:obj}. 
+
+È necessario calcolare, per procedere lungo le iterazioni, lo Jacobiano. Questo viene calcolato tramite la routine \texttt{jacobian\_fun.m}. Tale routine prende in ingresso il vettore dei parametri, l'ingresso e il vettore dei tempi e si occupa di calcolare la derivata numerica delle misure (risposta stimata) rispetto al parametro. Per farlo va a perturbare la j\textsuperscript{ma} componente della risposta facendo riferimento al j\textsuperscript{mo} parametro e ne calcola il rapporto incrementale. La procedura è analogo a quanto espresso per la matrice di sensibilità nell'\cref{eq:J}. 
+
+È possibile sfruttare gli stessi ingressi del caso precedente (\cref{fig:inputs}). I risultanti seguenti fanno riferimento ad un ingresso tipo gradino. 
+
+\begin{figure*}[bt]
+	\begin{subfigure}{0.5\linewidth}
+			\centering
+		\includegraphics[width=0.85\linewidth]{convergence_vs_relaxation}
+		\caption{}
+	\end{subfigure}\hfill
+	\begin{subfigure}{0.5\linewidth}
+			\centering
+		\includegraphics[width=0.85\linewidth]{error_vs_relaxation}
+		\caption{}
+	\end{subfigure}
+	\caption{Effetto del parametro di rilassamento sul metodo di Gauss-Newton. In (a) si vede come più il parametro è piccolo più il metodo converge lentamente.}
+	\label{fig:relaxation}
+\end{figure*}
+
+\begin{figure}[bt]
+	\centering
+	\includegraphics[width=0.9\linewidth]{gaussnewton}
+	\caption{Metodo di Gauss Newton arrivato a convergenza con 19 iterazioni, $\alpha=0.6$, $\lambda=0.1$. In tratto continui i valori aggiornati durante le iterazioni, linea tratteggiata per i valori veri (obiettivo di minimizzazione).}
+\end{figure}
+
+
+
+Per aiutare il metodo a convergere si aggiunge un parametro di rilassamento ($\alpha$) che permette di modulare l'incremento tra un'iterazione e la successiva:
+\begin{equation}
+\underline{p}^{(k+1)}=\underline{p}^{(k)}+\alpha^{(k)} \underline{h}^{(k)}
+\end{equation}
+
+Introducendo invece parametro di regolarizzazione $\lambda >0$ si ottiene sempre l'inversione di una matrice non singolare \cite{nocedal_numerical_2006} e si evitano problemi di cattivo condizionamento. 
+
+\begin{equation}
+\left[\underline{\underline{J^{T}}} \underline{J}\right]^{-1} \longrightarrow \left[\underline{\underline{J}}^{T} \underline{\underline{J}}+\lambda^{(k)} \underline{\underline{I}}\right]^{-1}
+\end{equation}
+
+
+
+Il problema ricade sulla scelta del parametro ottimo, se troppo grande può rovinare la velocità di convergenza del metodo mentre se troppo vicino allo zero può essere inefficiente e portare verso le singolarità dello Jacobiano. 
+
+Fissando il numero di iterazioni massimo è possibile confrontare come varia la convergenza (tempo di convergenza) al variare dei parametri di rilassamento e di regolarizzazione (\cref{fig:relaxation}). Si considera il tempo di convergenza come il numero di passi necessari ad avere una soluzione valida, soluzioni tali da non dare il risultato entro il numero di passi fissati vengono considerate non convergenti.
+
+Per il parametro di regolarizzazione non si ottengono miglioramenti in quanto il problema è già ben condizionato. Per il parametro di rilassamento invece si vede fortemente la sua influenza sulla velocità di convergenza del metodo. 
+
+Una notevole importanza è ricoperta anche dal punto iniziale. 
+Le tecniche utilizzate finora considerano il punto iniziale come una quantità ottenuta scaldando i parametri reali con i seguenti fattori:
+\begin{equation}
+	\begin{aligned}
+		&\theta_1^{0}=1.5\cdot \theta_1\\
+		& \theta_2^{0}=0.8\cdot \theta_2
+	\end{aligned}
+\end{equation}
+
+È possibile scalare ulteriormente questi valori e osservarne l'effetto. In particolare, scalando entrambi i parametri è evidente come allontanandosi troppo dalla soluzione vera il metodo non converge. I parametri vengono scalati di $0.01 \div 3 \times$ rispetto il valore iniziale precedentemente considerato.   
+
+
+\begin{figure}[bt]
+	\centering
+	\includegraphics[width=0.9\linewidth]{convergence_vs_initial_guess}
+	\caption{Effetto della variazione del parametro iniziale sulla convergenza del metodo. Allontanandosi troppo dalla soluzione iniziale (\texttt{scale factor}=1) il metodo non converge.}
+\end{figure}
+
+
 \section{Conclusioni}
-\textcolor{blue}{\lipsum[1-2]}
+
+Entrambi i metodi sono validi e permettono di raggiungere il risultato stimando i parametri.
+
+È importante considerare il problema nella forma corretta, considerando i parametri effettivamente linearmente indipendenti e non i differenti elementi circuitali.
+
+Il metodo di Nelder-Mead permette di evitare la derivazione ma porta ad errori medi più elevati. 
+
+Il metodo di Gauss-Newton si mostra più preciso anche se può risultare computazionalmente più costoso. 
+
+Essendo entrambi metodi non lineari, risulta molto importante scegliere il punto iniziale altrimenti il metodo potrebbe non convergere. 
+
+Inoltre, per il metodo di Gauss Newton risulta fondamentale selezionare correttamente i parametri di rilassamento e regolarizzazione per evitare una divergenza del metodo o un costo computazionale più elevato di quanto necessario.
 
 %\pagebreak
 \section*{Disponibilità dei dati}
 
+Il materiale è disponibile alla repository online del progetto: \url{https://github.com/mastroalex/respiratory-mechanics}
 
+\subsection*{Codice}
+
+\begin{itemize}
+	\item Il codice per l'ottimizzazione con Nelder-Mead a tre parametri è presente nel file \texttt{par\_sys\_id.m}
+	\item Il codice per l'ottimizzazione con Nelder-Mead a due parametri è presente nel file \texttt{par\_sys\_id\_two\_param.m}
+	\item Il codice per l'ottimizzazione con Gauss-Newton è presente nel file \texttt{par\_sys\_id\_gauss\_newton.m}
+\end{itemize}
+
+\raggedbottom
+
+\pagebreak
 \printbibliography[title=Riferimenti]
 %\section*{References}
-\pagebreak
-\appendix
-\section*{Appendice}
-\lipsum[1-5]
+
+
+

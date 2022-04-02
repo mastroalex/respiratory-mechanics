@@ -77,24 +77,24 @@ xlabel('Regularization parameters')
 
 alpha=0.5;
 lambda=0.1;
-scale_factor=linspace(0.01,3,20);
+scale_factor=linspace(0.1,3,10);
 p_init=[1.5; 0.8].*p_true;
 for i=1:length(scale_factor)
     [error,p,iteration]=parameters_id(scale_factor(i).*p_init,alpha,lambda,u,y,t,p_true,max_iter);
-    error_init_scale(:,i)=error;
+    error_init_(:,i)=error;
     p_init_scale(:,i)=p;
     iteration_init_scale(:,i)=iteration;
 end
 % plot result
-figure;plot(scale_factor,iteration_init_scale,'-o')
-title('Convergence vs initial guess')
+figure;plot(scale_factor,iteration_init,'-o')
+title('Convergence vs relaxation parameters')
 ylabel('N. of iteration')
-xlabel('Scale factor')
+xlabel('Relaxation parameters')
 
-figure;plot(scale_factor,100*mean(error_init_scale),'-o')
-title('Error vs initial guess')
+figure;plot(scale_factor,100*mean(error_init),'-o')
+title('Error vs relaxation parameters')
 ylabel('Error %')
-xlabel('Scale factor')
+xlabel('Relaxation parameters')
 
 % % %p_init=[4; 7].*p_true;
 

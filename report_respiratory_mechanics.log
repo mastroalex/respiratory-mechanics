@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  2 APR 2022 15:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  2 APR 2022 19:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2021-06-01> patch level 1
 L3 programming layer <2021-10-18>
 (c:/texlive/2021/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
-(c:/texlive/2021/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+(c:/texlive/2021/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count182
 \c@section=\count183
@@ -1400,12 +1400,12 @@ Package caption Info: End \AtBeginDocument code.
 * \topmargin=-50.58878pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=11.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
 * \marginparwidth=4.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -1468,82 +1468,96 @@ Package biblatex Info: ... file 'report_respiratory_mechanics.bbl' found.
 Package biblatex Info: Reference section=0 on input line 149.
 Package biblatex Info: Reference segment=0 on input line 149.
  (./testo.tex
-Underfull \vbox (badness 3930) has occurred while \output is active []
+Underfull \vbox (badness 1342) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 11--12
-\T1/stix/m/n/10.95 rie di re-sistenza, in-dut-tore e ca-pac-ità. Sulla base
+Underfull \hbox (badness 2181) in paragraph at lines 15--16
+[]\T1/stix/m/n/12 L'identificazione di sis-temi è un in-sieme di
  []
 
 
-Underfull \hbox (badness 1675) in paragraph at lines 11--12
-\T1/stix/m/n/10.95 monare è pos-si-bile rap-p-re-sentare, in un mod-ello a
+Underfull \hbox (badness 1867) in paragraph at lines 15--16
+\T1/stix/m/n/12 i parametri e il sis-tema tale da de-scri-vere un
+ []
+
+
+Underfull \hbox (badness 1540) in paragraph at lines 15--16
+\T1/stix/m/n/12 certo fenomeno. La prima grande dis-tinzione
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 15--16
+\T1/stix/m/n/12 vede la sep-a-razione di due tec-niche: iden-ti-fi-
  []
 
 <figures//logo.png, id=4, 336.384pt x 337.698pt>
 File: figures//logo.png Graphic file (type png)
 <use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 12.
+Package pdftex.def Info: figures//logo.png  used on input line 19.
 (pdftex.def)             Requested size: 44.82474pt x 45.0pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 49.08003pt, for example:
-(fancyhdr)                \setlength{\headheight}{49.08003pt}.
+(fancyhdr)                Make it at least 52.54129pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.54129pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 
-(fancyhdr)                \addtolength{\topmargin}{-37.08003pt}.
+(fancyhdr)                \addtolength{\topmargin}{-40.54129pt}.
 
 [1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <./figures//logo.png>]
+Underfull \hbox (badness 2134) in paragraph at lines 21--22
+[]\T1/stix/m/n/12 Il cir-cuito RLC (fig. 2) per-me-tte, seguendo
+ []
+
 LaTeX Font Info:    Trying to load font information for TS1+stix on input line 
-18.
- (c:/texlive/2021/texmf-dist/tex/latex/stix/ts1stix.fd
+28.
+(c:/texlive/2021/texmf-dist/tex/latex/stix/ts1stix.fd
 File: ts1stix.fd 2015/04/17 v1.1.2-latex STIX TS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
-ne 18.
+ne 28.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixscr.fd
 File: ls1stixscr.fd 2015/04/17 v1.1.2-latex STIX script LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixex on input lin
-e 18.
+e 28.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixex.fd
 File: ls2stixex.fd 2015/04/17 v1.1.2-latex STIX extentions LS2 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixfrak on input l
-ine 18.
+ine 28.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixfrak.fd
 File: ls1stixfrak.fd 2015/04/17 v1.1.2-latex STIX fraktur LS1 font definitions
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixbb on input lin
-e 18.
+e 28.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixbb.fd
 File: ls1stixbb.fd 2015/04/17 v1.1.2-latex STIX blackboard LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixcal on input li
-ne 18.
+ne 28.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixcal.fd
 File: ls2stixcal.fd 2015/04/17 v1.1.2-latex STIX calligraphic LS2 font definiti
 ons
 )
 LaTeX Font Info:    Trying to load font information for LS1+stixsf on input lin
-e 18.
+e 28.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls1stixsf.fd
 File: ls1stixsf.fd 2015/04/17 v1.1.2-latex STIX sans-serif LS1 font definitions
 
 )
 LaTeX Font Info:    Trying to load font information for LS2+stixtt on input lin
-e 18.
+e 28.
 
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
@@ -1552,11 +1566,11 @@ File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
 Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 18.
+(amsmath)                 on input line 28.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 23--24
-[]\T1/stix/m/n/10.95 In questo mod-ello sem-pli-fi-cato si con-sid-er-ano
+Underfull \hbox (badness 2150) in paragraph at lines 33--34
+\T1/stix/m/n/12 un'unica re-sistenza e un'unica com-pli-ance che
  []
 
 (./code/figures//lung_model.pdf_tex
@@ -1587,105 +1601,269 @@ Package pdftex.def Info: code/figures//RLC_tf.pdf , page1 used on input line 56
 .
 (pdftex.def)             Requested size: 198.53288pt x 45.69385pt.
 )
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 8
 5.
 
 (c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Underfull \hbox (badness 3168) in paragraph at lines 75--76
-\T1/stix/m/n/10.95 tramite la pro-ce-dura \T1/cmtt/m/n/10.95 rlc_fun.m \T1/stix
-/m/n/10.95 che resti-tu-isce la
- []
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-Underfull \hbox (badness 1762) in paragraph at lines 75--76
-\T1/stix/m/n/10.95 risposta del cir-cuito RLC for-nen-dogli in in-gressi i
- []
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2 <./code/figures//lung_model.pdf> <./code/figures//lung_model.pdf
 
 pdfTeX warning: pdflatex.exe (file ./code/figures//lung_model.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 1325) in paragraph at lines 99--100
-[]\T1/stix/m/n/10.95 Un'alternativa è il metodo di Gauss-Newton. Il
+Underfull \hbox (badness 1092) in paragraph at lines 104--105
+[]\T1/stix/m/n/12 Uno dei pos-si-bili modi per af-frontare questo
  []
 
 
-Underfull \hbox (badness 5446) in paragraph at lines 99--100
-\T1/stix/m/n/10.95 metodo, di-ver-sa-mente dal prece-dente, richiede di
+Underfull \hbox (badness 2922) in paragraph at lines 104--105
+\T1/stix/m/n/12 prob-lema con-siste nell'affidarsi alla rou-tine di
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
-[]\T1/stix/m/n/10.95 Ovvero con-sid-er-are l'iterazione sem-plice-mente
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+[]\T1/stix/m/n/12 Utilizzando quindi l'algoritmo di New-ton
  []
+
+<code/figures//step.pdf, id=28, 360.34625pt x 308.15125pt>
+File: code/figures//step.pdf Graphic file (type pdf)
+<use code/figures//step.pdf>
+Package pdftex.def Info: code/figures//step.pdf  used on input line 150.
+(pdftex.def)             Requested size: 111.67355pt x 95.49768pt.
+<code/figures//rgs.pdf, id=29, 360.34625pt x 308.15125pt>
+File: code/figures//rgs.pdf Graphic file (type pdf)
+<use code/figures//rgs.pdf>
+Package pdftex.def Info: code/figures//rgs.pdf  used on input line 154.
+(pdftex.def)             Requested size: 111.67355pt x 95.49768pt.
+<code/figures//rbs.pdf, id=30, 360.34625pt x 308.15125pt>
+File: code/figures//rbs.pdf Graphic file (type pdf)
+<use code/figures//rbs.pdf>
+Package pdftex.def Info: code/figures//rbs.pdf  used on input line 158.
+(pdftex.def)             Requested size: 111.67355pt x 95.49768pt.
+<code/figures//prbs.pdf, id=31, 360.34625pt x 308.15125pt>
+File: code/figures//prbs.pdf Graphic file (type pdf)
+<use code/figures//prbs.pdf>
+Package pdftex.def Info: code/figures//prbs.pdf  used on input line 162.
+(pdftex.def)             Requested size: 111.67355pt x 95.49768pt.
+
+Underfull \hbox (badness 3158) in paragraph at lines 177--178
+[]\T1/stix/m/n/12 Nel primo metodo si uti-lizza la rou-tine di
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [3 <./code/figures//RLC.pdf> <./code/figures//RLC_tf.pdf
 
 pdfTeX warning: pdflatex.exe (file ./code/figures//RLC_tf.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
 >]
-<code/figures//primo_test_4_parametri.pdf, id=39, 356.33125pt x 308.15125pt>
+Underfull \hbox (badness 10000) in paragraph at lines 197--197
+[][][]\T1/stix/m/sc/10.95 Tab. 1[][]: []|\T1/stix/m/n/10.95 Risul-tati dell'ott
+imizzazione con
+ []
+
+<code/figures//primo_test_4_parametri.pdf, id=43, 356.33125pt x 308.15125pt>
 File: code/figures//primo_test_4_parametri.pdf Graphic file (type pdf)
 <use code/figures//primo_test_4_parametri.pdf>
 Package pdftex.def Info: code/figures//primo_test_4_parametri.pdf  used on inpu
-t line 170.
+t line 203.
 (pdftex.def)             Requested size: 243.16516pt x 210.28769pt.
 
-Underfull \hbox (badness 1817) in paragraph at lines 195--197
-\T1/stix/m/n/10.95 ben con-dizion-ata è pos-si-bile pro-cedere a sti-mare i
+Underfull \vbox (badness 1199) has occurred while \output is active []
+
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[4 <./code/figures//step.pdf> <./code/figures//rgs.pdf> <./code/figures//rbs.pd
+f> <./code/figures//prbs.pdf> <./code/figures//primo_test_4_parametri.pdf>]
+Underfull \hbox (badness 8000) in paragraph at lines 232--233
+[]\T1/stix/m/n/12 Per farlo viene ri-or-ga-niz-zato il codice in
  []
 
-<code/figures//step.pdf, id=40, 360.34625pt x 308.15125pt>
-File: code/figures//step.pdf Graphic file (type pdf)
-<use code/figures//step.pdf>
-Package pdftex.def Info: code/figures//step.pdf  used on input line 200.
-(pdftex.def)             Requested size: 111.67355pt x 95.49768pt.
-<code/figures//rgs.pdf, id=41, 360.34625pt x 308.15125pt>
-File: code/figures//rgs.pdf Graphic file (type pdf)
-<use code/figures//rgs.pdf>
-Package pdftex.def Info: code/figures//rgs.pdf  used on input line 204.
-(pdftex.def)             Requested size: 111.67355pt x 95.49768pt.
-<code/figures//rbs.pdf, id=42, 360.34625pt x 308.15125pt>
-File: code/figures//rbs.pdf Graphic file (type pdf)
-<use code/figures//rbs.pdf>
-Package pdftex.def Info: code/figures//rbs.pdf  used on input line 208.
-(pdftex.def)             Requested size: 111.67355pt x 95.49768pt.
-<code/figures//prbs.pdf, id=43, 360.34625pt x 308.15125pt>
-File: code/figures//prbs.pdf Graphic file (type pdf)
-<use code/figures//prbs.pdf>
-Package pdftex.def Info: code/figures//prbs.pdf  used on input line 212.
-(pdftex.def)             Requested size: 111.67355pt x 95.49768pt.
-<code/figures//error.pdf, id=44, 365.365pt x 279.0425pt>
+
+Underfull \hbox (badness 1097) in paragraph at lines 232--233
+\T1/stix/m/n/12 modo da rac-chi-ud-ere la gen-er-azione dei dati e
+ []
+
+<code/figures//error.pdf, id=63, 365.365pt x 279.0425pt>
 File: code/figures//error.pdf Graphic file (type pdf)
 <use code/figures//error.pdf>
-Package pdftex.def Info: code/figures//error.pdf  used on input line 223.
+Package pdftex.def Info: code/figures//error.pdf  used on input line 236.
 (pdftex.def)             Requested size: 231.00615pt x 176.42786pt.
-[4 <./code/figures//primo_test_4_parametri.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5 <./code/figures//step.pdf> <./code/figures//rgs.pdf> <./code/figures//rbs.p
-df> <./code/figures//prbs.pdf> <./code/figures//error.pdf>])
-Underfull \hbox (badness 1158) in paragraph at lines 171--171
-[]\T1/stix/m/n/10.95 Quisque ul-la-m-cor-per pla-ce-rat ip-sum. Cras nibh.
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+[]\T1/stix/m/n/12 Un ap-proc-cio dif-fer-ente prevede l'utilizzo
  []
 
 
+Underfull \hbox (badness 1902) in paragraph at lines 242--243
+\T1/stix/m/n/12 dell'algoritmo di Gauss New-ton. Si cerca la
+ []
+
+
+Underfull \hbox (badness 2503) in paragraph at lines 242--243
+\T1/stix/m/n/12 min-i-miz-zazione della fun-zione obi-et-tivo per il
+ []
+
+<code/figures//convergence_vs_relaxation.pdf, id=64, 360.34625pt x 304.13625pt>
+
+File: code/figures//convergence_vs_relaxation.pdf Graphic file (type pdf)
+<use code/figures//convergence_vs_relaxation.pdf>
+Package pdftex.def Info: code/figures//convergence_vs_relaxation.pdf  used on i
+nput line 251.
+(pdftex.def)             Requested size: 210.9419pt x 178.03732pt.
+<code/figures//error_vs_relaxation.pdf, id=65, 360.34625pt x 303.1325pt>
+File: code/figures//error_vs_relaxation.pdf Graphic file (type pdf)
+<use code/figures//error_vs_relaxation.pdf>
+Package pdftex.def Info: code/figures//error_vs_relaxation.pdf  used on input l
+ine 256.
+(pdftex.def)             Requested size: 210.9419pt x 177.44974pt.
+<code/figures//gaussnewton.pdf, id=66, 384.43625pt x 299.1175pt>
+File: code/figures//gaussnewton.pdf Graphic file (type pdf)
+<use code/figures//gaussnewton.pdf>
+Package pdftex.def Info: code/figures//gaussnewton.pdf  used on input line 265.
+
+(pdftex.def)             Requested size: 218.84715pt x 170.27966pt.
+
+Underfull \hbox (badness 3815) in paragraph at lines 276--277
+[]\T1/stix/m/n/12 Introducendo in-vece parametro di re-go-lar-iz-
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5 <./code/figures//error.pdf>]
+<code/figures//convergence_vs_initial_guess.pdf, id=82, 360.34625pt x 301.125pt
+>
+File: code/figures//convergence_vs_initial_guess.pdf Graphic file (type pdf)
+<use code/figures//convergence_vs_initial_guess.pdf>
+Package pdftex.def Info: code/figures//convergence_vs_initial_guess.pdf  used o
+n input line 304.
+(pdftex.def)             Requested size: 218.84715pt x 182.87729pt.
+
+Underfull \hbox (badness 1259) in paragraph at lines 319--320
+[]\T1/stix/m/n/12 Essendo en-trambi metodi non lin-eari, risulta
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[6 <./code/figures//convergence_vs_relaxation.pdf> <./code/figures//error_vs_re
+laxation.pdf> <./code/figures//gaussnewton.pdf> <./code/figures//convergence_vs
+_initial_guess.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+[]\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+\T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
+m /
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 331--332
+[]\T1/stix/m/n/12 Il codice per l'ottimizzazione con Nelder-
+ []
+
+
+Underfull \hbox (badness 2818) in paragraph at lines 331--332
+\T1/stix/m/n/12 Mead a tre parametri è pre-sente nel file
+ []
+
+
+Underfull \hbox (badness 1888) in paragraph at lines 332--333
+[]\T1/stix/m/n/12 Il codice per l'ottimizzazione con Nelder-
+ []
+
+
+Underfull \hbox (badness 1755) in paragraph at lines 332--333
+\T1/stix/m/n/12 Mead a due parametri è pre-sente nel file
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+[]\T1/stix/m/n/12 Il codice per l'ottimizzazione con
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 333--334
+\T1/stix/m/n/12 Gauss-Newton è pre-sente nel file
+ []
+
+
+Underfull \hbox (badness 1629) in paragraph at lines 339--339
+[]\T1/stix/m/n/12 Pardis Gha-far-ian, Hamidreza Ja-maati, and
+ []
+
+
+Underfull \hbox (badness 1895) in paragraph at lines 339--339
+\T1/stix/m/it/12 sys-tems: anal-y-sis, sim-u-la-tion, and es-ti-ma-
+ []
+
+
+Underfull \hbox (badness 3118) in paragraph at lines 339--339
+\T1/cmtt/m/n/12 / / epubs . siam . org / doi / 10 .
+ []
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 339--339
+\T1/cmtt/m/n/12 1137 / S1052623496303470$ \T1/stix/m/n/12 (vis-ited on
+ []
+
+) 
 AED: lastpage setting LastPage
-[6] (./report_respiratory_mechanics.aux)
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7] (./report_respiratory_mechanics.aux)
 Package logreq Info: Writing requests to 'report_respiratory_mechanics.run.xml'
 .
 \openout1 = `report_respiratory_mechanics.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46350 strings out of 478579
- 1061995 string characters out of 5857457
- 1720756 words of memory out of 5000000
- 63538 multiletter control sequences out of 15000+600000
- 491424 words of font info for 126 fonts, out of 8000000 for 9000
+ 46373 strings out of 478579
+ 1063271 string characters out of 5857457
+ 1720826 words of memory out of 5000000
+ 63559 multiletter control sequences out of 15000+600000
+ 483423 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,97p,1898b,1670s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}{c:/texlive/2021
@@ -1695,15 +1873,16 @@ lic/stix/STIXGeneral-Bold.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/st
 ix/STIXGeneral-Italic.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/S
 TIXGeneral-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/
 latxfont/line10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sft
-t1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+t1095.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
 <c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive
 /2021/texmf-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2021/texmf
 -dist/fonts/type1/public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fonts
-/type1/public/stix/stix-mathscr.pfb>
-Output written on report_respiratory_mechanics.pdf (6 pages, 321897 bytes).
+/type1/public/stix/stix-mathscr.pfb><c:/texlive/2021/texmf-dist/fonts/type1/pub
+lic/stix/stix-mathtt.pfb>
+Output written on report_respiratory_mechanics.pdf (7 pages, 336213 bytes).
 PDF statistics:
- 129 PDF objects out of 1000 (max. 8388607)
- 83 compressed objects within 1 object stream
+ 164 PDF objects out of 1000 (max. 8388607)
+ 107 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 88 words of extra memory for PDF output out of 10000 (max. 10000000)
 

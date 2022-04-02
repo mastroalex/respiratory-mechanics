@@ -65,6 +65,7 @@ y_prbs=setup_my_system(R,L,C,u,t,'plot');
 [error_prbs,theta_est_prbs,obj_fun_val_prbs]=my_optimization(L,R,C,u,t,y_prbs,'verbose');
 
 % plot error result
+% it may variate between different iteration
 
 figure;plot(100*[error_step, error_prbs, error_rbs, error_rgs]','-*');
 legend({'\theta_1', '\theta_2'})
