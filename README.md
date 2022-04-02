@@ -24,7 +24,6 @@ Both methods lead to the correct estimation of the parameters but some considera
 
 Read the [report](https://github.com/mastroalex/respiratory-mechanics/blob/main/report/report_respiratory_mechanics.pdf)
 
-<img src="https://github.com/mastroalex/respiratory-mechanics/blob/main/code/figures/lung_model.svg" alt="Model" style="width:300px;">
-<img src="https://github.com/mastroalex/respiratory-mechanics/blob/main/code/figures/RLC.svg" alt="Model" style="width:500px;">
+<img src="https://github.com/mastroalex/respiratory-mechanics/blob/main/code/figures/lung_model.svg" alt="Model" style="width:300px;"> <img src="https://github.com/mastroalex/respiratory-mechanics/blob/main/code/figures/RLC.svg" alt="Model" style="width:500px;">
 
  
