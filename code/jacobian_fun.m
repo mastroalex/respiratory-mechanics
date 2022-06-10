@@ -1,3 +1,11 @@
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Mastrofini Alessandro
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Medical Engineering - University of Rome Tor Vergata
+% Physiological Systems Modeling and Simulation
+% F. Caselli, MSSF A.Y. 2021/2022
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
 function [J]=jacobian_fun(theta_ref,u,t)
 % calculate jacobian of the calculated response
 % it's the derivative of the measure respect to the parameters

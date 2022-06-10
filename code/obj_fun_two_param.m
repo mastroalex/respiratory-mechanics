@@ -1,6 +1,10 @@
-% % % % % % % % % % % % % % % % % % % % % % % %
-% F. Caselli, MSSF A.A. 2020/2021
-% % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Mastrofini Alessandro
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Medical Engineering - University of Rome Tor Vergata
+% Physiological Systems Modeling and Simulation
+% F. Caselli, MSSF A.Y. 2021/2022
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 
 function E=obj_fun_two_param(theta,y,u,t)
 % evaluate objective function value (E) corresponding to given parameter

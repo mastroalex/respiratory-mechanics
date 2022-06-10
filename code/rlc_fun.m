@@ -1,6 +1,6 @@
-% % % % % % % % % % % % % % % % % % % % % % % % 
-% F. Caselli, MSSF A.A. 2020/2021
-% % % % % % % % % % % % % % % % % % % % % % % % 
+% % % Medical Engineering - University of Rome Tor Vergata
+% % % MSSF - Caselli, F
+% % % Lungs mechanics models - Mastrofini, A
 
 function [y_pred]=rlc_fun(theta,u,t)
 % generates a vector y_pred, containing the values of the

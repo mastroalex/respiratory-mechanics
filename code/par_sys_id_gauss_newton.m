@@ -1,8 +1,10 @@
-% Parametric identification of lung mechanics by means of Gauss-Newton algorithm
-
-% % % % % % % % % % % % % % % % % % % % % % % %
-% F. Caselli, MSSF A.A. 2020/2021
-% % % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Mastrofini Alessandro
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+% Medical Engineering - University of Rome Tor Vergata
+% Physiological Systems Modeling and Simulation
+% F. Caselli, MSSF A.Y. 2021/2022
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
 
 clear
 close all
